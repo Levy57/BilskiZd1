@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Phone</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <SCRIPT LANGUAGE="JavaScript">
+        <!--
+        
+         function pokazZegar()
+         {
+          var czas = new Date();
+          myclock = czas.getHours()+ ":" + czas.getMinutes()
+       
+            if (document.layers) {
+              zegar.document.write(myclock);
+              zegar.document.close();
+            } 
+            else if (document.all) zegar.innerHTML = myclock;
+            else if (document.getElementById) document.getElementById("zegar").innerHTML = myclock;
+        
+          setTimeout('pokazZegar()', 1000);
+         }
+        -->
+        </SCRIPT>
+</head>
+<body onLoad="pokazZegar()">
+    <div class="smartphone">
+      <div class="content">
+       <header>
+            <img src="./images/wifi.png" alt="wifi_icon">
+
+            <img src="./images/LTE.png" alt="lte_icon">
+
+            <div id="prawa">
+              <img src="./images/batery.png" alt="bateria_icon">
+            <div id="zegar"></div>
+        </div>
+       </header>
+
+       <main>
+        <img src="./images/google.png" alt="google">
+       </main>
+
+       <footer>
+        <div id="gora">
+            <img src="./images/phone-call.png" alt="kontakty" class="hoverIt">
+
+            <img src="./images/3d-contact.png" alt="rejstr_kontaktów" class="hoverIt">
+
+            <img src="./images/photo.png" alt="aparat" class="hoverIt">
+        </div>
+        <div id="dol">
+          <img src="./images/triangle.png" alt="cofnij" width="30px" height="30px">
+
+          <img src="./images/square.png" alt="ostatnie" style="float: right; margin-right: 50px;">
+        </div>
+       </footer>
+      </div>
+    </div>
+  </body>
+</html>
+    
